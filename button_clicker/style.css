@@ -1,0 +1,105 @@
+/* css reset */
+*{
+    margin:0px;
+    padding: auto;
+}
+/* container attributes */
+.container{
+    width: 970px;
+    height: auto;
+}
+/* mainbody attributes */
+.mainbody{
+    display: flex;
+    justify-content: space-around;
+}
+/* navbar attributes */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: silver;
+    margin: 20px;
+}
+/* left column settings */
+.left{
+    display: block;
+}
+/* box 1& 2 attributes */
+.box-1, .box-2{
+    width: 500px;
+    margin: 20px;
+}
+/* box1,2 and right column */
+.box-1, .box-2,.right{
+    height: 150px;
+    border: 5px solid;
+    border-color:rgb(195, 195, 204);
+}
+.box-1,.box-2{
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+}
+/*  mini box attributes */ 
+.minibox{
+    height: 150px;
+    width: 200px;
+}
+/* box 3 attributes */
+.right{
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    font-size: 26px;
+
+}
+/* beginning of likes attributes */
+.likes{
+    border: 2px solid;
+    border-color:black;
+    background-color:goldenrod;
+    margin-top: 20px;
+    height: 30px;
+    width: 70px;
+    font-size: small;
+}
+.def{
+    border: 2px solid;
+    border-color:black;
+    background-color:rgb(124, 167, 59);
+    margin-top: 10px;
+    height: 30px;
+    width: 200px;
+    font-size: 19px;
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+    color:blue;
+}
+.dojo{
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 35px;
+}
+.login{
+    margin-right: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(38, 38, 185);
+    color: white;
+    border: 3px solid;
+    border-color: grey;
+}
+.search{
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+}
+.box-1,.box-2 < span{
+
+}

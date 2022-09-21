@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- beginning of navbar -->
+        <div class="navbar">
+            <h1 class="dojo"> Dojonary</h1>
+            <input class= "search" type="search" name="search" id="search">
+            <!-- change the text to  -->
+            <button class="login" onclick="clicked (this) ">Login </button>
+        </div>
+        <!-- end of navbae -->
+        <!-- start of main body  -->
+        <div class="mainbody">
+            <!--  beginning of Column left -->
+            <div class="left">
+                <!-- ninja card 1 -->
+                <div class="box-1">
+                <!-- mini box for left stuff -->
+                    <div class="minibox">
+                        <h1> ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural:<em>ninjas</em></p>
+                        <!-- function for alert "ninja was liked" click -->
+                        <button class="likes" onclick="alert('This page says Ninja was liked')"> 13 likes </button>
+                    </div>
+                    <p> A practioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+                <!-- ninja card 2 -->
+                <div class="box-2">
+                    <!-- mini box for left stuff -->
+                    <div class="minibox">
+                        <h1> ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural:<em>ninjas</em></p>
+                        <button class="likes" > 37 likes </button>
+                    </div>
+                    <p>A <span>programmer</span>who breaks down problems with <span>zen</span>-like focus</p>
+                </div>
+                <!-- end ninja card 2 -->
+            </div>
+            <!-- end of left column -->
+            <!-- start of right column -->
+            <div class="right">
+                <!-- start of dojonary defined by you -->
+                <div>
+                    <p> Dojonary is defined by <span> YOU</span></p>
+                    <!-- function for remove the add definition when it is clicked -->
+                    <button class="def" onclick="deletedef(this)"> Add Definition</button>
+                </div>
+                <!-- end of dojonary defined by you -->
+            </div>
+            <!-- end of right column  -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
